@@ -16,16 +16,28 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <a href="./index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+      <a class="header-logo logo link" href="./index.html"
+        ><span class="logo-accent">Web</span>Studio</a
+      >
+      <nav class="nav">
+        <ul class="nav-list list">
+          <li class="nav-list-item">
+            <a class="nav-list-link link" href="./index.html">Студія</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link link current" href="./portfolio.html"
+              >Портфоліо</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link link" href="">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <a href="">info@devstudio.com</a>
-      <a href="">+38 096 111 11 11</a>
+      <a class="header-link" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
     <!-- Main -->
     <main>
@@ -34,7 +46,9 @@
 
         <ul class="portfolio-filter-list list">
           <li class="portfolio-filter-item">
-            <button class="portfolio-filter-btn" type="button">Усі</button>
+            <button class="portfolio-filter-btn active" type="button">
+              Усі
+            </button>
           </li>
           <li class="filter-item">
             <button class="filter-btn" type="button">Веб-сайти</button>
@@ -50,24 +64,28 @@
           </li>
         </ul>
 
-        <ul class="portfolio-cards-list">
+        <ul class="portfolio-cards-list list">
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-1.jpg"
                 alt="Технокряк"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">Технокряк</h2>
               <p class="card-text">Веб-сайт</p>
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-2.jpg"
                 alt="New Orlean vs Golden Star"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">
                 Постер <span lang="en">New Orlean vs Golden Star</span>
@@ -76,11 +94,13 @@
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-3.jpg"
                 alt="Ресторан Seafood"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">
                 Ресторан <span lang="en">Seafood</span>
@@ -89,33 +109,39 @@
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-4.jpg"
                 alt="Prime"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">Проєкт <span lang="en">Prime</span></h2>
               <p class="card-text">Маркетинг</p>
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-5.jpg"
                 alt="Проєкт Boxes"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">Проєкт <span lang="en">Boxes</span></h2>
               <p class="card-text">Додаток</p>
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-6.jpg"
                 alt="Inspiration has no Borders"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">
                 <span lang="en">Inspiration has no Borders</span>
@@ -124,11 +150,13 @@
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-7.jpg"
                 alt="Видання Limited Edition"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">
                 Видання <span lang="en">Limited Edition</span>
@@ -137,22 +165,26 @@
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-8.jpg"
                 alt="Проєкт LAB"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title">Проєкт <span lang="en">LAB</span></h2>
               <p class="card-text">Маркетинг</p>
             </a>
           </li>
           <li class="portfolio-cards-item">
-            <a href="" class="card-link">
+            <a href="" class="card-link link">
               <img
                 src="./images/portfolio/img-9.jpg"
                 alt="Проєкт LAB"
                 class="card-img"
+                width="370"
+                height="294"
               />
               <h2 class="card-title"><span lang="en">Проєкт LAB</span></h2>
               <p class="card-text">Додаток</p>
@@ -163,21 +195,33 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <address>
-        <ul>
-          <li>
+      <a class="footer-logo logo link" href="./index.html"
+        ><span class="logo-accent">Web</span>Studio</a
+      >
+      <address class="footer-address">
+        <ul class="footer-address-list list">
+          <li class="footer-address-item">
             <a
+              class="footer-address-link to-map link"
               href="https://goo.gl/maps/cPwKgXEgkE8QsZHY8?coh=178573&entry=tt"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >ул. Дерибасовская Одесса, Одесская область, 65000</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-address-item">
+            <a class="footer-address-link link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-address-item">
+            <a class="footer-address-link link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
-      <p>&#169; 2023 Усі права захистені</p>
+      <p class="footer-copy">&#169; 2023 Усі права захистені</p>
     </footer>
   </body>
 </html>
